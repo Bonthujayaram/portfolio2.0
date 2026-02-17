@@ -20,11 +20,7 @@ export const NAV_ITEMS = [
   { label: "About", href: "/about" },
   { label: "Experience", href: "/experience" },
   { label: "Projects", href: "/projects" },
-<<<<<<< HEAD
-  { label: "Achievements", href: "/#achievements" }
-=======
   { label: "Achievements", href: "/about#achievements" }
->>>>>>> 98ad9e9 (Add HTIC experience and fix achievements anchor scroll)
 ];
 
 export const ANIMATION_VARIANTS = {

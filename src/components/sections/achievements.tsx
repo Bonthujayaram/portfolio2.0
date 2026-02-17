@@ -7,11 +7,7 @@ import { Award, Users, TrendingUp } from "lucide-react";
 
 export function Achievements() {
   return (
-<<<<<<< HEAD
-    <section className="py-20 px-4">
-=======
     <section id="achievements" className="py-20 px-4">
->>>>>>> 98ad9e9 (Add HTIC experience and fix achievements anchor scroll)
       <div className="container mx-auto max-w-4xl">
         {/* Section Header */}
         <motion.div
@@ -44,11 +40,10 @@ export function Achievements() {
             >
               <div className="p-6 rounded-xl border bg-card hover:shadow-lg transition-all">
                 <div className="flex items-start gap-4">
-                 
                   <div className="flex-1">
                     <h3 className="text-2xl font-semibold mb-1">{achievement.title}</h3>
                     <p className="text-primary font-medium mb-3">{achievement.organization}</p>
-                    <p className="text-muted-foreground mb-4">{achievement.description}</p>                    
+                    <p className="text-muted-foreground mb-4">{achievement.description}</p>
                     {/* Impact Metrics */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {achievement.impact.map((impact, i) => (
